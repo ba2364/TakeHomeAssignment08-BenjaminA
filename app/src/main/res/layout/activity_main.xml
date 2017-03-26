@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.ba2364.takehomeassignment08_benjamina_01.MainActivity">
+    <EditText
+        android:id="@+id/titleview"
+        style="@style/EditTextStyle"
+        android:hint="@string/title"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text="@string/setTitle"
+        android:onClick="setTitle"/>
+    <EditText
+        style="@style/EditTextStyle"
+        android:id="@+id/cityName"
+        android:hint="@string/city"/>
+    <EditText
+        style="@style/EditTextStyle"
+        android:id="@+id/state"
+        android:hint="@string/state" />
+    <EditText
+        style="@style/EditTextStyle"
+        android:id="@+id/population"
+        android:inputType="number"
+        android:hint="@string/population"/>
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/big"
+        android:textSize="20sp"
+        android:text="@string/big"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text="@string/newCity"
+        android:onClick="addCity"/>
+</LinearLayout>

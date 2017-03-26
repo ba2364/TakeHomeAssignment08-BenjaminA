@@ -1,0 +1,11 @@
+<resources> 
+    <string name="app_name">City Maker 1.0</string> 
+    <string name="city">City Name</string> 
+    <string name="state">State</string> 
+    <string name="population">Population</string> 
+    <string name="big">Is It A Big City?</string> 
+    <string name="submit">Submit</string> 
+    <string name="newCity">Add a City</string> 
+    <string name="setTitle">Set Title</string> 
+    <string name="title">Title</string> 
+</resources>
